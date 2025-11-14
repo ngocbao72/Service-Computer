@@ -12,7 +12,7 @@
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
                 <i class="fas fa-tools text-blue-600 text-2xl"></i>
-                <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">ServiceFix Manager</h1>
+                <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Service Manager</h1>
             </div>
             <div class="space-x-6">
                 <a href="index.php" class="text-gray-700 hover:text-blue-600 transition font-medium">Trang chủ</a>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-gradient-to-br from-gray-50 to-blue-50">
+    <!-- Navbar -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
@@ -16,19 +17,25 @@
             </div>
             <div class="space-x-6">
                 <a href="index.php" class="text-gray-700 hover:text-blue-600 transition font-medium">Trang chủ</a>
+                <a href="about.php?page=about" class="text-gray-700 hover:text-blue-600 transition font-medium">Giới thiệu</a>
                 <a href="index.php?page=services" class="text-gray-700 hover:text-blue-600 transition font-medium">Dịch vụ</a>
+                <a href="booking.php?page=booking" class="text-gray-700 hover:text-blue-600 transition font-medium">Đặt lịch</a>
+                <a href="payment.php?page=payment" class="text-gray-700 hover:text-blue-600 transition font-medium">Thanh toán</a>
                 <a href="index.php?page=login" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Đăng nhập</a>
             </div>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden">
         <div class="absolute inset-0 opacity-10">
             <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1200" alt="background" class="w-full h-full object-cover">
         </div>
         <div class="container mx-auto px-4 py-20 relative">
-            <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-5xl font-bold mb-6 leading-tight">Dịch vụ sửa chữa laptop chuyên nghiệp</h2>
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight whitespace-nowrap overflow-hidden">
+                    Dịch vụ sửa chữa laptop chuyên nghiệp
+                </h2>
                 <p class="text-xl mb-8 text-blue-100">Khắc phục mọi sự cố nhanh chóng, bảo hành rõ ràng, giá cả hợp lý</p>
                 <a href="index.php?page=services" class="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition shadow-lg">
                     <span>Xem dịch vụ của chúng tôi</span>
@@ -38,6 +45,7 @@
         </div>
     </section>
 
+    <!-- Why Choose Us -->
     <main class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
             <h3 class="text-3xl font-bold text-gray-800 mb-3">Tại sao chọn chúng tôi?</h3>
@@ -70,6 +78,7 @@
             </div>
         </div>
 
+        <!-- Process Section -->
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div class="grid md:grid-cols-2">
                 <div class="p-12 flex flex-col justify-center">
@@ -112,6 +121,7 @@
         </div>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 py-12 mt-20">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
@@ -135,6 +145,7 @@
                     <div class="space-y-2">
                         <a href="index.php" class="block hover:text-blue-400 transition">Trang chủ</a>
                         <a href="index.php?page=services" class="block hover:text-blue-400 transition">Dịch vụ</a>
+                        <a href="payment.php?page=payment" class="block hover:text-blue-400 transition">Thanh toán</a>
                         <a href="index.php?page=login" class="block hover:text-blue-400 transition">Đăng nhập</a>
                     </div>
                 </div>
