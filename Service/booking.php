@@ -34,13 +34,29 @@ if(isset($_POST['submit'])) {
 <body class="bg-gray-50 min-h-screen">
 
 <!-- Navbar đơn giản -->
-<nav class="bg-white shadow-md sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-600">Service Manager</h1>
-        <div class="space-x-4">
-            <a href="index.php" class="text-blue-600 font-semibold">Trang chủ</a>
-            <a href="index.php?page=services" class="text-blue-600 font-semibold">Dịch vụ</a>
-            <a href="index.php?page=booking" class="text-blue-600 font-semibold">Đặt lịch</a>
+<nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+        <!-- Logo -->
+        <div class="flex items-center space-x-3">
+            <h1 class="text-2xl font-bold text-gray-800">
+                <span class="text-blue-600">ServiceFix</span>
+            </h1>
+        </div>
+
+        <!-- Menu -->
+        <div class="hidden md:flex items-center space-x-8 font-medium">
+            <a href="index.php" class="text-gray-700 hover:text-blue-600 transition">Trang chủ</a>
+            <a href="about.php?page=about" class="text-gray-700 hover:text-blue-600 transition">Giới thiệu</a>
+            <a href="index.php?page=services" class="text-gray-700 hover:text-blue-600 transition">Dịch vụ</a>
+            <a href="booking.php?page=booking" class="text-gray-700 hover:text-blue-600 transition">Đặt lịch</a>
+            <a href="buildpc.php?page=buildpc" class="text-gray-700 hover:text-blue-600 transition">Build PC</a>
+            <a href="payment.php?page=payment" class="text-blue-600 font-semibold">Thanh toán</a>
+
+            <a href="index.php?page=login"
+               class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition shadow-md">
+                Đăng nhập
+            </a>
         </div>
     </div>
 </nav>

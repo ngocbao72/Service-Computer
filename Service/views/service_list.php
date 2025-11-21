@@ -56,6 +56,7 @@
             <a href="about.php?page=about" class="text-blue-600 font-semibold">Giới thiệu</a>
             <a href="index.php?page=services" class="text-blue-600 font-semibold">Dịch vụ</a>
             <a href="booking.php?page=booking" class="text-blue-600 font-semibold">Đặt lịch</a>
+            <a href="buildpc.php?page=buildpc" class="text-blue-600 font-semibold">Build PC</a>
             <a href="index.php?page=payment" class="text-blue-600 font-semibold">Thanh toán</a>
             <a href="index.php?page=login" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">
                 Đăng nhập

@@ -20,6 +20,7 @@
                 <a href="about.php?page=about" class="text-gray-700 hover:text-blue-600 transition font-medium">Giới thiệu</a>
                 <a href="index.php?page=services" class="text-gray-700 hover:text-blue-600 transition font-medium">Dịch vụ</a>
                 <a href="booking.php?page=booking" class="text-gray-700 hover:text-blue-600 transition font-medium">Đặt lịch</a>
+                <a href="buildpc.php?page=buildpc" class="text-gray-700 hover:text-blue-600 transition font-medium">Build PC</a>
                 <a href="payment.php?page=payment" class="text-gray-700 hover:text-blue-600 transition font-medium">Thanh toán</a>
                 <a href="index.php?page=login" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Đăng nhập</a>
             </div>

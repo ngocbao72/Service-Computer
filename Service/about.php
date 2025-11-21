@@ -23,12 +23,14 @@
   <!-- Header -->
   <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-md z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="index.php" class="text-2xl font-bold text-blue-600">Service</a>
+      <a href="index.php" class="text-2xl font-bold text-blue-600">Service Computer</a>
       <nav class="space-x-6 font-medium">
         <a href="index.php" class="text-gray-700 hover:text-blue-600">Trang chủ</a>
         <a href="about.php" class="text-gray-700 hover:text-blue-600">Giới thiệu</a>
         <a href="index.php?page=services" class="text-gray-700 hover:text-blue-600">Dịch vụ</a>
         <a href="booking.php" class="text-gray-700 hover:text-blue-600">Đặt lịch</a> 
+        <a href="buildpc.php" class="text-gray-700 hover:text-blue-600">Build PC</a>
+        <a href="payment.php" class="text-gray-700 hover:text-blue-600">Thanh toán</a>
         <a href="index.php?page=login" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Đăng nhập</a>
       </nav>
     </div>
@@ -69,7 +71,7 @@
           Chúng tôi tin rằng mỗi thiết bị đều xứng đáng được chăm sóc tốt nhất, giúp bạn yên tâm sử dụng công nghệ mà không lo sự cố.
         </p>
       </div>
-      <img src="https://cdn.pixabay.com/photo/2016/06/29/09/38/laptop-1483974_1280.jpg"
+      <img src="/Service/assets/Image2.png"
            alt="About ServiceFix"
            class="rounded-2xl shadow-lg hover:scale-105 transition duration-500">
     </div>
